@@ -1,0 +1,16 @@
+
+:root{
+    --main-color:rgb(187, 255, 0);
+    --padding-size:15px;
+}
+
+.box{
+    background-color: var(--main-color);
+    padding: var(--padding-size);
+    border: 1px solid green;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
