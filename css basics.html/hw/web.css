@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: transparent;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+}
+.navibar{
+    width=100px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:cornflowerblue;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 1000px;
+    padding-top: 10px;
+    background-color: burlywood;
+    text-align: center;
+    
+
+
+}.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size:14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold
+    transition: 0.4em;
+}
+.background-color{
+    width: 800px;
+    background-image: url('c:\Users\ADMIN\Pictures\1_files\1_2c3dB30SysZ8pCtojBTSXg (2).jpg');
+    background-repeat: round;
+    background-size: cover;
+    background-position: 0cap;
+    background-attachment: fixed;
+}
