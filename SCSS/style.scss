@@ -1,0 +1,9 @@
+$varname:red;
+$varname1:green;
+h1{
+    color: $varname;
+}
+h2{
+    padding: $varpadding;
+    color:$varname1
+}

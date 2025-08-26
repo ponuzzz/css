@@ -1,0 +1,160 @@
+
+/* === Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+/* === Navigation === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links .btn {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+/* === Hero Section === */
+.hero {
+  background-color: #1b2c40;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); /* subtle pattern */
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn-light {
+  background-color: white;
+  color: #1b2c40;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* === Services Section === */
+.services {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.service-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-box {
+  width: 220px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.service-box .icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* === Responsive Media Queries === */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .service-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .services h2 {
+    font-size: 24px;
+  }
+
+  .service-box {
+    width: 100%;
+  }
+
+  .nav-links {
+    width: 100%;
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[required]{
+            border: 2px solid red;
+
+        }
+        input[type="email"]{
+            background-color: greenyellow;
+        }
+        div[class~="box"]{  /* contains word in space-seperated list */
+            background-color: yellow;
+        }
+        p[lang|="en"]{ /*exact or starts with */
+            color: blue;
+        }
+        a[href^="https"]{ /* start with*/
+            color:brown;
+        }
+        img[src$=".jpg"]{ /* ends with */
+            border: 2px solid black;
+            width: 100px;
+        }
+        a[href*="about"]{ /* astrisk) contains value */
+            font-weight: bold;
+            text-decoration: underline;
+            background-color: cadetblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>CSS ATTRIBUTE SELECTORS</h2>
+    <!--1-->
+    <input type="text" placeholder="your name" required><br><br>
+
+    <!--2-->
+
+    <input type="email" placeholder="your email" ><br><br>
+    <!--3-->
+
+    <div class="box highlight">highlight</div>
+    <!--4-->
+
+    <p lang="en">english words</p>
+    <p integer="en-Us"> Us english words</p>
+    
+    <!--5-->
+    <a href="https://example.com/login">login page </a><br><br>
+    <!--6-->
+    <img src="../profile/profile-image.jpg.jpg" alt="sample"><br><br>
+
+    <!--7-->
+   <a href="https://example.com/about">About page </a><br>
+</body>
+</html>

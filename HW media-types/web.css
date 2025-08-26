@@ -1,0 +1,94 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/*  Header  */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav .btn {
+  background: #1e3a8a;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.content{
+  background-color: #333;
+  text-align: center;
+  padding: 100px 20px;
+
+}
+.center{
+  align-items: center;
+  color:white;
+  padding: 20px;
+}
+.btns{
+  background: white;
+  color: #1e2a38;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer{
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+.services{
+  text-align: center;
+  color: black;
+  font-weight:bold;
+  font-size: 30px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.footer-grid .icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  padding: 30px 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+.fa-grid-2{
+  background-color: yellow;
+  font-size: 30px;
+}
